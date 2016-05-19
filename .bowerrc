@@ -1,0 +1,6 @@
+{
+	"directory": "vendor/",
+	"analytics": false,
+	"color": true,
+	"interactive": true	
+}

@@ -1,0 +1,11 @@
+php ../artisan db:seed -n --force --class=PredioSeeder
+php ../artisan db:seed -n --force --class=AutoridadeTipoSeeder
+php ../artisan db:seed -n --force --class=AutoridadeSeeder
+php ../artisan db:seed -n --force --class=AutoridadePredioSeeder
+php ../artisan db:seed -n --force --class=AutoridadeTelefoneSeeder
+php ../artisan db:seed -n --force --class=DestinatarioSeeder
+php ../artisan db:seed -n --force --class=TipoSolicitacaoSeeder
+php ../artisan db:seed -n --force --class=CargaSeeder
+php ../artisan db:seed -n --force --class=ControleCargaSeeder
+php ../artisan db:seed -n --force --class=LegadoSeeder
+php ../artisan db:seed -n --force --class=UsuarioSeeder

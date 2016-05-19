@@ -1,0 +1,4 @@
+mysql -u root -pSENHA < base/20150619.2222-UTF8.sql
+mysql -u root -pSENHA -e "DROP DATABASE biblioteca"
+mysql -u root -pSENHA -e "CREATE DATABASE biblioteca"
+php ../artisan migrate -n --force
