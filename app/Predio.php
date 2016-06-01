@@ -39,12 +39,17 @@ class Predio extends Model {
 
 	public function autoridade()
 	{
-		return $this->belongsToMany('App\Autoridade', 'autoridades_predios', 'predios_id', 'autoridades_id');
+		return $this->belongsToMany('App\Autoridade', 'autoridades_predios', 'predios_id', 'autoridades_id')->wherePivot('deleted_at', null)->withTimestamps();
 	}
 
 	public function scopeApagados ($query)
 	{
 		$query->withTrashed();
+	}
+
+	public function scopeOrdem ($query)
+	{
+		$query->orderBy('predio', 'ASC');
 	}
 
 }

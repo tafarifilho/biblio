@@ -56,6 +56,7 @@
 									<li><a href="{!! route('autoridade.cadastrar') !!}"><span class="glyphicon glyphicon-plus"> Cadastrar</span></a></li>
 									<li><a href="{!! route('predio.listar') !!}"><span class="glyphicon glyphicon-home"> Predio Listar</span></a></li>
 									<li><a href="{!! route('predio.cadastrar') !!}"><span class="glyphicon glyphicon-home"> Predio Cadastrar</span></a></li>
+									<li><a href="{!! route('autoridade.administrartelefones') !!}"><span class="glyphicon glyphicon-th-list"> Telefones Administrar</span></a></li>
 									<li><a href="{!! route('autoridadetipo.listar') !!}"><span class="glyphicon glyphicon-briefcase"> Tipo Listar</span></a></li>
 									<li><a href="{!! route('autoridadetipo.cadastrar') !!}"><span class="glyphicon glyphicon-briefcase"> Tipo Cadastrar</span></a></li>
 								@endif

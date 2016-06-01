@@ -7,7 +7,7 @@
 		<h2>Sobre o Biblioteca</h2>
 		<hr>
 
-		<p><strong>Versão: </strong>1.0.4</p>
+		<p><strong>Versão: </strong>1.0.5</p>
 		<p><strong>Data da Versão: </strong>29/03/2016</p>
 
 		<p><strong>Sistema</strong>
@@ -57,6 +57,11 @@
 		</p>
 
 		<p><strong>ChangeLog</strong><p>
+
+		<p>31/05/2016 - 1.0.5</p>
+			<ul>
+				<li>Criada opção de Listar Autoridades/Telefones por Prédio, para gestão de Telefones.</li>
+			</ul>
 
 		<p>29/03/2016 - 1.0.4</p>
 			<ul>

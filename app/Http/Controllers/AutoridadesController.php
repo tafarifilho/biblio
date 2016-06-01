@@ -303,7 +303,6 @@ class AutoridadesController extends Controller {
 		return redirect('/autoridade/listar')
 			->with('tipo_message', 'Sucesso')
 			->with('message', 'Telefones atualizados com sucesso.');
-
 	}
 
 	public function getPredio($id)
@@ -326,6 +325,12 @@ class AutoridadesController extends Controller {
 			->with('tipo_message', 'Sucesso')
 			->with('message', 'Prédios atualizados com sucesso.');
 
+	}
+
+	public function getAdministrarTelefones()
+	{
+		$predios = Predio::ordem()->get();
+		return view('autoridade.administrartelefones', compact('predios'));
 	}
 
 }

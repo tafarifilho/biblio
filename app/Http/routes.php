@@ -508,6 +508,19 @@ Route::post('autoridade/predio', [
 
 /*
 |--------------------------------------------------------------------------
+| Autoridade Administrar Telefones GET
+|--------------------------------------------------------------------------
+*/
+Route::get('autoridade/administrartelefones', [
+	'uses'       => 'AutoridadesController@getAdministrarTelefones',
+	'as'         => 'autoridade.administrartelefones',
+	'middleware' => ['sentry', 'inGroup', 'hasAccess'],
+	'inGroup'    => ['Grupo de Administrar Autoridades'],
+	'hasAccess'  => ['autoridade.cadastrar', 'autoridade.editar', 'autoridade.apagar', 'autoridade.reativar']
+	]);
+
+/*
+|--------------------------------------------------------------------------
 |
 | Obras Routes
 |
