@@ -319,8 +319,8 @@ class AutoridadesController extends Controller {
 		if ($request->input('predio_id'))
 			$autoridade->sincronizarPredio($request->input('predio_id'), $request->input('sala'), $request->input('complemento'));
 		else
-			//$delete = $autoridade->predio()->delete();
-			dd('iria apagar');
+			$delete = $autoridade->autoridadepredio()->delete();
+
 		return redirect('/autoridade/listar')
 			->with('tipo_message', 'Sucesso')
 			->with('message', 'Prédios atualizados com sucesso.');

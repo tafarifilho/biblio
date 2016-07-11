@@ -94,11 +94,13 @@
 					{!! Form::input('tel', 'tipos_telefones[]', null, array('class'=>'form-control', 'placeholder'=>'Tipo')) !!}
 				</div>
 
+				{{--
 				<div class="col-sm-1">
 					<button id="adicionar" type="button" class="btn btn-info col-sm-12">
 						<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
 					</button>
 				</div>
+				--}}
 
 			</div>
 		</div>
