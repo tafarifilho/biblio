@@ -16,7 +16,7 @@ class ConsultaController extends Controller {
 		return view('consulta.formulario');
 	}
 
-	public function postResultado(ConsultaRequest $request)
+	public function postConsulta(ConsultaRequest $request)
 	{
 		$query = $request->input('consulta');
 

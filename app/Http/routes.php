@@ -1131,7 +1131,7 @@ Route::post('usuario/sambasenha', [
 */
 
 Route::post('consulta/resultado', [
-	'uses'       => 'ConsultaController@postResultado',
-	'as'         => 'consulta.resultado',
+	'uses'       => 'ConsultaController@postConsulta',
+	'as'         => 'consulta.post',
 	'middleware' => ['sentry'],
 	]);

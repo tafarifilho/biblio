@@ -87,6 +87,13 @@
 					</ul>
 				@endif
 
+				{!! Form::open(array('route'=>'consulta.resultado', 'class' => 'navbar-form navbar-right', 'role' => 'search')) !!}
+					<div class="form-group">
+						<input type="text" name="consulta" class="form-control" placeholder="Acervo">
+					</div>
+					<button type="submit" class="btn btn-default">Consultar</button>
+				{!! Form::close() !!}
+
 				<ul class="nav navbar-nav navbar-right">
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">{{ $usuarioAtual->last_name }}<span class="caret"></span></a>

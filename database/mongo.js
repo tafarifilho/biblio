@@ -10,3 +10,13 @@ db.dob.createIndex(
 	},
 	{ default_language: "portuguese" }
 );
+db.ape.createIndex(
+	{
+		"v30._": "text",
+		"v43._": "text"
+	},
+	{
+		name: "ApeIndex"
+	},
+	{ default_language: "portuguese" }
+);

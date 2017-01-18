@@ -20,7 +20,7 @@ class Obra extends Model {
 										' Livro - Obra rara', 
 										'Livro - Obra Rara'
 									);
-
+dd("chegou aqui");
 			return $query->whereRaw(
 				array(
 					'$and' => array(
