@@ -1,4 +1,9 @@
-## Sistema de Controle de Empréstimos
+# Security Advisory
+
+## Consider updating the Laravel version.
+https://github.com/advisories/GHSA-3p32-j457-pg5x
+
+# Sistema de Controle de Empréstimos
 
 Este é um sistema para gerir o controle de empréstimo de um determinado órgão público.
 
