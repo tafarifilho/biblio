@@ -2,6 +2,7 @@
 
 ## Consider updating the Laravel version.
 https://github.com/advisories/GHSA-3p32-j457-pg5x
+https://github.com/advisories/GHSA-4mg9-vhxq-vm7j
 
 # Sistema de Controle de Empréstimos
 
