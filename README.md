@@ -7,6 +7,8 @@ https://github.com/advisories/GHSA-4mg9-vhxq-vm7j
 
 https://github.com/advisories/GHSA-w2pm-r78h-4m7v
 
+https://github.com/advisories/GHSA-gv7v-rgg6-548h
+
 
 # Sistema de Controle de Empréstimos
 
